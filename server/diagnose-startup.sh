@@ -12,7 +12,7 @@ STAGE=$(p /tmp/webosbrew_startup)
 FAILSAFE=$(p /var/luna/preferences/webosbrew_failsafe)
 CTL=$(p /var/lib/tvweb/tvwebctl)
 NODE=$(p /usr/bin/node)
-HOME=$(p /var/lib/tvweb/home.json)
+HOME_CFG=$(p /var/lib/tvweb/home.json)
 SERVER=$(p /var/lib/tvweb/tvweb.js)
 
 printf '%s\n' '=== Chẩn đoán Glasshouse sau khởi động (chỉ đọc) ==='
@@ -45,7 +45,7 @@ if [ -x "$NODE" ] && [ -f "$SERVER" ]; then
 else
   echo 'MAY CHU: Thiếu Node.js hoặc tvweb.js.'
 fi
-if [ -f "$HOME" ] && grep -q '"enabled"[[:space:]]*:[[:space:]]*true' "$HOME" 2>/dev/null; then
+if [ -f "$HOME_CFG" ] && grep -q '"enabled"[[:space:]]*:[[:space:]]*true' "$HOME_CFG" 2>/dev/null; then
   echo 'GLASSHOUSE HOME: Đã bật trong home.json.'
 else
   echo 'GLASSHOUSE HOME: Chưa bật hoặc chưa thể xác minh home.json.'
