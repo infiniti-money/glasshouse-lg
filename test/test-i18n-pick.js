@@ -61,6 +61,16 @@ console.log('  ✓ chosen, or asked for in the address, it is used on every page
   assert.strictEqual(load({ browser: 'fr-FR', page: p }).lang(), 'fr', p);
 });
 assert.strictEqual(load({ browser: 'xx-XX', page: WEB }).lang(), 'en', 'a language without a file');
+assert.strictEqual(load({ browser: 'vi-VN', page: WEB }).lang(), 'en',
+  'partial Vietnamese must not be auto-selected for an incomplete dashboard');
+assert.strictEqual(load({ browser: 'en-US', page: WEB, stored: 'vi' }).lang(), 'vi',
+  'Vietnamese is available by explicit selection');
+assert.strictEqual(load({ browser: 'en-US', page: WEB, search: '?lang=vi' }).lang(), 'vi',
+  'Vietnamese can be previewed with URL language override');
+assert.strictEqual(load({ browser: 'en-US', page: WEB }).complete('vi'), false,
+  'Vietnamese is clearly marked partial while translation is in progress');
+assert.strictEqual(load({ browser: 'en-US', page: WEB }).names.vi, 'Tiếng Việt');
+
 console.log('  ✓ a complete language follows the browser everywhere');
 
 // A language with its region is its own: other regions are not given it.
