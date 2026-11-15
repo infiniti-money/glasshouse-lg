@@ -25,11 +25,11 @@ try{
  assert.ok(!fs.existsSync(path.join(root,'var/lib/webosbrew/init.d/50-tvweb')),'must not create files');
  put('var/lib/webosbrew/startup.sh','# boot\n');
  put('tmp/webosbrew_startup','1\n');
- put('usr/bin/node','#!/bin/sh\n',0o755);
+ put('usr/bin/node','#!/bin/sh\n',493);
  put('var/lib/tvweb/tvweb.js','// mock\n');
  put('var/lib/tvweb/home.json','{"enabled":true,"privateToken":"DO_NOT_PRINT"}\n');
- put('var/lib/tvweb/tvwebctl','#!/bin/sh\necho running\n',0o755);
- put('var/lib/webosbrew/init.d/50-tvweb','#!/bin/sh\n',0o755);
+ put('var/lib/tvweb/tvwebctl','#!/bin/sh\necho running\n',493);
+ put('var/lib/webosbrew/init.d/50-tvweb','#!/bin/sh\n',493);
  put('var/lib/webosbrew/tvweb-boot.log','secret?k=1234567890\nSun: starting\nSun: Glasshouse Home opened over com.webos.app.livetv\n');
  var healthy=run();
  assert.ok(/GLASSHOUSE HOOK: Có và có quyền thực thi/.test(healthy));
