@@ -1,6 +1,12 @@
 /** Read-only startup diagnostics on webOS: missing hook and healthy hook. */
 'use strict';
 var assert=require('assert'),fs=require('fs'),os=require('os'),path=require('path'),cp=require('child_process');
+// The fake filesystem uses recent Node test helpers; TV Node 0.10/0.12/8
+// still exercise boot scripts through the separate compatibility checks.
+if (Number(process.versions.node.split('.')[0]) < 16) {
+  console.log('Cold boot diagnostics test skipped on Node <16');
+  process.exit(0);
+}
 var root=fs.mkdtempSync(path.join(os.tmpdir(),'glasshouse-coldboot-'));
 var sh=path.join(__dirname,'..','server','diagnose-startup.sh');
 function put(file,data,mode) {
