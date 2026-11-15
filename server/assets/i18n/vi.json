@@ -1,0 +1,1854 @@
+{
+  "search.clear": {
+    "text": "Xóa tìm kiếm",
+    "from": "Clear search"
+  },
+  "search.category": {
+    "text": "Danh mục: {category}",
+    "from": "Category: {category}"
+  },
+  "search.count": {
+    "text": "{n} kết quả",
+    "from": "{n} results"
+  },
+  "search.empty": {
+    "text": "Không có kết quả. Thử tìm cổng, độ sáng, MQTT hoặc mạng.",
+    "from": "No matches. Try port, brightness, MQTT, or network."
+  },
+  "search.open": {
+    "text": "Tìm kiếm",
+    "from": "Search"
+  },
+  "search.label": {
+    "text": "Tìm cài đặt, mục, ứng dụng và điều khiển",
+    "from": "Search settings, sections, apps and controls"
+  },
+  "search.kind.action": {
+    "text": "Thao tác",
+    "from": "Action"
+  },
+  "search.kind.log": {
+    "text": "Nhật ký",
+    "from": "Log"
+  },
+  "search.kind.section": {
+    "text": "Mục",
+    "from": "Section"
+  },
+  "search.kind.setting": {
+    "text": "Cài đặt",
+    "from": "Setting"
+  },
+  "search.kind.tab": {
+    "text": "Thẻ",
+    "from": "Tab"
+  },
+  "search.pin": {
+    "text": "Ghim lối tắt",
+    "from": "Pin shortcut"
+  },
+  "search.pinned": {
+    "text": "Đã ghim",
+    "from": "Pinned"
+  },
+  "search.results": {
+    "text": "Kết quả tìm kiếm",
+    "from": "Search results"
+  },
+  "search.unpin": {
+    "text": "Bỏ ghim lối tắt",
+    "from": "Remove shortcut"
+  },
+  "adv.deviceDetection": {
+    "text": "Tự động phát hiện thiết bị",
+    "from": "Auto device detection"
+  },
+  "adv.screenTime.do.off": {
+    "text": "Tắt TV",
+    "from": "Switch the TV off"
+  },
+  "adv.screenTime.remove": {
+    "text": "Xóa",
+    "from": "Remove"
+  },
+  "adv.sound": {
+    "text": "Âm thanh",
+    "from": "Sound"
+  },
+  "apps.cat.all": {
+    "text": "Tất cả",
+    "from": "All"
+  },
+  "apps.count": {
+    "text": "{n} ứng dụng",
+    "from": "{n} apps"
+  },
+  "apps.count.one": {
+    "text": "1 ứng dụng",
+    "from": "1 app"
+  },
+  "apps.group.apps": {
+    "text": "Ứng dụng",
+    "from": "Apps"
+  },
+  "apps.group.apps.desc": {
+    "text": "Các ứng dụng và trang web trên TV: thêm hoặc xóa.",
+    "from": "The apps and web pages on the TV: adding them and removing them."
+  },
+  "apps.group.bg": {
+    "text": "Nền",
+    "from": "Background"
+  },
+  "apps.heading": {
+    "text": "Ứng dụng và trình khởi chạy Trang chủ",
+    "from": "Apps & Home Screen Launcher"
+  },
+  "apps.home": {
+    "text": "Bố cục Trang chủ",
+    "from": "Home screen layout"
+  },
+  "apps.home.asLg": {
+    "text": "Theo bố cục LG",
+    "from": "As LG has it"
+  },
+  "apps.home.failed": {
+    "text": "Không thể thay đổi Trang chủ: {error}",
+    "from": "Could not change the Home screen: {error}"
+  },
+  "apps.home.hidden": {
+    "text": "Đã ẩn",
+    "from": "Hidden"
+  },
+  "apps.home.notOnHome": {
+    "text": "Không trên Trang chủ",
+    "from": "Not on Home"
+  },
+  "apps.home.onHome": {
+    "text": "Trên Trang chủ",
+    "from": "On Home"
+  },
+  "apps.home.restore": {
+    "text": "Khôi phục Trang chủ LG",
+    "from": "Put back LG’s Home screen"
+  },
+  "apps.home.shown": {
+    "text": "Đang hiển thị",
+    "from": "Shown"
+  },
+  "apps.install": {
+    "text": "Cài ứng dụng Homebrew",
+    "from": "Install homebrew apps"
+  },
+  "apps.install.btn.checking": {
+    "text": "Đang kiểm tra…",
+    "from": "Checking…"
+  },
+  "apps.install.button": {
+    "text": "Cài đặt",
+    "from": "Install"
+  },
+  "apps.install.confirm": {
+    "text": "Cài đặt",
+    "from": "Install"
+  },
+  "apps.install.desc": {
+    "text": "Ứng dụng từ danh mục Homebrew Channel.",
+    "from": "Apps from the Homebrew Channel catalog."
+  },
+  "apps.install.done": {
+    "text": "Đã cài {name} phiên bản {version}.",
+    "from": "Installed {name} v{version}."
+  },
+  "apps.install.failed": {
+    "text": "Không thể bắt đầu cài đặt",
+    "from": "The install could not be started"
+  },
+  "apps.install.installed": {
+    "text": "Đã cài đặt",
+    "from": "Installed"
+  },
+  "apps.install.installing": {
+    "text": "Đang cài đặt…",
+    "from": "Installing…"
+  },
+  "apps.install.noMatch": {
+    "text": "Không tìm thấy ứng dụng phù hợp.",
+    "from": "No apps match."
+  },
+  "apps.install.search": {
+    "text": "Tìm ứng dụng",
+    "from": "Search apps"
+  },
+  "apps.install.update": {
+    "text": "Cập nhật",
+    "from": "Update"
+  },
+  "apps.installed.app": {
+    "text": "Ứng dụng đã cài",
+    "from": "Installed app"
+  },
+  "apps.installed.none": {
+    "text": "Không tìm thấy ứng dụng có thể gỡ trên TV.",
+    "from": "No removable apps found on the TV."
+  },
+  "apps.loadingInstalled": {
+    "text": "Đang tải danh sách ứng dụng đã cài...",
+    "from": "Loading installed apps…"
+  },
+  "apps.manage": {
+    "text": "Quản lý ứng dụng",
+    "from": "Manage applications"
+  },
+  "apps.pages.edit": {
+    "text": "Chỉnh sửa",
+    "from": "Edit"
+  },
+  "apps.pages.none": {
+    "text": "Chưa có",
+    "from": "None yet"
+  },
+  "apps.pages.remove": {
+    "text": "Xóa",
+    "from": "Remove"
+  },
+  "apps.pages.save": {
+    "text": "Lưu",
+    "from": "Save"
+  },
+  "apps.preload.count": {
+    "text": "{n} ứng dụng",
+    "from": "{n} apps"
+  },
+  "apps.preload.one": {
+    "text": "1 ứng dụng",
+    "from": "1 app"
+  },
+  "apps.quickAccess.apps": {
+    "text": "Ứng dụng",
+    "from": "Apps"
+  },
+  "apps.quickAccess.inputs": {
+    "text": "Nguồn vào",
+    "from": "Inputs"
+  },
+  "apps.quickAccess.reset": {
+    "text": "Không có",
+    "from": "None"
+  },
+  "apps.remoteKeys.apps": {
+    "text": "Ứng dụng",
+    "from": "Apps"
+  },
+  "apps.remoteKeys.close": {
+    "text": "Đóng",
+    "from": "Close"
+  },
+  "apps.remoteKeys.inputSwitcher": {
+    "text": "Bộ chuyển nguồn vào",
+    "from": "Input switcher"
+  },
+  "apps.remoteKeys.inputs": {
+    "text": "Nguồn vào",
+    "from": "Inputs"
+  },
+  "apps.service.disabled": {
+    "text": "Đã tắt",
+    "from": "Disabled"
+  },
+  "apps.service.updating": {
+    "text": "Đang cập nhật…",
+    "from": "Updating…"
+  },
+  "apps.tile.hidden": {
+    "text": "Đã ẩn",
+    "from": "Hidden"
+  },
+  "common.actionFailed": {
+    "text": "Thao tác thất bại",
+    "from": "Action failed"
+  },
+  "common.cancel": {
+    "text": "Hủy",
+    "from": "Cancel"
+  },
+  "common.off": {
+    "text": "Tắt",
+    "from": "Off"
+  },
+  "common.on": {
+    "text": "Bật",
+    "from": "On"
+  },
+  "common.unknownError": {
+    "text": "Lỗi không xác định",
+    "from": "unknown error"
+  },
+  "common.unreachable": {
+    "text": "Không thể kết nối với TV",
+    "from": "Can’t reach the TV"
+  },
+  "ctl.back": {
+    "text": "Quay lại",
+    "from": "Back"
+  },
+  "ctl.backlight": {
+    "text": "Đèn nền",
+    "from": "Backlight"
+  },
+  "ctl.down": {
+    "text": "Xuống",
+    "from": "Down"
+  },
+  "ctl.dpad.sub": {
+    "text": "Di chuyển trên TV",
+    "from": "Navigate the TV"
+  },
+  "ctl.home": {
+    "text": "Trang chủ",
+    "from": "Home"
+  },
+  "ctl.left": {
+    "text": "Trái",
+    "from": "Left"
+  },
+  "ctl.liveTv": {
+    "text": "Truyền hình trực tiếp",
+    "from": "Live TV"
+  },
+  "ctl.mute": {
+    "text": "Tắt tiếng",
+    "from": "Mute"
+  },
+  "ctl.muted": {
+    "text": "ĐÃ TẮT TIẾNG",
+    "from": "MUTED"
+  },
+  "ctl.openUrl": {
+    "text": "Mở một trang web",
+    "from": "Open a web page"
+  },
+  "ctl.openUrl.open": {
+    "text": "Mở",
+    "from": "Open"
+  },
+  "ctl.picture": {
+    "text": "Hình ảnh",
+    "from": "Picture"
+  },
+  "ctl.pictureMode": {
+    "text": "Chế độ",
+    "from": "Mode"
+  },
+  "ctl.powerOff": {
+    "text": "Tắt TV",
+    "from": "Power off"
+  },
+  "ctl.powerOff.confirm": {
+    "text": "Tắt TV ngay bây giờ?",
+    "from": "Power off the TV now?"
+  },
+  "ctl.powerOn": {
+    "text": "Bật TV",
+    "from": "Power on"
+  },
+  "ctl.reboot": {
+    "text": "Khởi động lại",
+    "from": "Reboot"
+  },
+  "ctl.reboot.confirm": {
+    "text": "Khởi động lại TV ngay? TV sẽ không sử dụng được trong khoảng một phút.",
+    "from": "Reboot the TV now? It will be unavailable for about a minute."
+  },
+  "ctl.right": {
+    "text": "Phải",
+    "from": "Right"
+  },
+  "ctl.screenOff": {
+    "text": "Tắt màn hình",
+    "from": "Screen off"
+  },
+  "ctl.screenOn": {
+    "text": "Bật màn hình",
+    "from": "Screen on"
+  },
+  "ctl.select": {
+    "text": "Chọn",
+    "from": "Select"
+  },
+  "ctl.sleep.minutes": {
+    "text": "{n} phút",
+    "from": "{n} min"
+  },
+  "ctl.sound": {
+    "text": "Âm thanh",
+    "from": "Sound"
+  },
+  "ctl.source": {
+    "text": "Nguồn",
+    "from": "Source"
+  },
+  "ctl.stop": {
+    "text": "Dừng",
+    "from": "Stop"
+  },
+  "ctl.toast": {
+    "text": "Thông báo trên màn hình",
+    "from": "Screen notification"
+  },
+  "ctl.toast.placeholder": {
+    "text": "Nội dung thông báo trên màn hình TV...",
+    "from": "Message to display on TV screen..."
+  },
+  "ctl.toast.send": {
+    "text": "Gửi",
+    "from": "Send"
+  },
+  "ctl.toast.sent": {
+    "text": "Đã gửi",
+    "from": "Sent"
+  },
+  "ctl.up": {
+    "text": "Lên",
+    "from": "Up"
+  },
+  "ctl.volume": {
+    "text": "Âm lượng",
+    "from": "Volume"
+  },
+  "ctl.volumeDown": {
+    "text": "Giảm âm lượng",
+    "from": "Volume down"
+  },
+  "ctl.volumeExternal": {
+    "text": "Âm lượng được điều chỉnh trên thiết bị âm thanh",
+    "from": "The volume is set on the sound device"
+  },
+  "ctl.volumeUp": {
+    "text": "Tăng âm lượng",
+    "from": "Volume up"
+  },
+  "energy.auto": {
+    "text": "Tự động",
+    "from": "Auto"
+  },
+  "energy.max": {
+    "text": "Tối đa",
+    "from": "Maximum"
+  },
+  "energy.med": {
+    "text": "Trung bình",
+    "from": "Medium"
+  },
+  "energy.min": {
+    "text": "Tối thiểu",
+    "from": "Minimum"
+  },
+  "game.input": {
+    "text": "Nguồn vào",
+    "from": "Input"
+  },
+  "lgs.hdmi.input": {
+    "text": "Nguồn vào",
+    "from": "Input"
+  },
+  "metrics.flashHealth.normal": {
+    "text": "Bình thường",
+    "from": "Normal"
+  },
+  "metrics.net.connected": {
+    "text": "Đã kết nối",
+    "from": "Connected"
+  },
+  "metrics.network": {
+    "text": "Mạng",
+    "from": "Network"
+  },
+  "metrics.remote.connected": {
+    "text": "Đã kết nối",
+    "from": "Connected"
+  },
+  "metrics.remote.standby": {
+    "text": "Chế độ chờ",
+    "from": "Standby"
+  },
+  "metrics.system": {
+    "text": "Hệ thống",
+    "from": "System"
+  },
+  "metrics.watch.screenOff": {
+    "text": "Tắt màn hình",
+    "from": "Screen off"
+  },
+  "metrics.watch.screenSaver": {
+    "text": "Trình bảo vệ màn hình",
+    "from": "Screen saver"
+  },
+  "metrics.watch.today": {
+    "text": "Hôm nay",
+    "from": "Today"
+  },
+  "mqtt.cat.disabled": {
+    "text": "Đã tắt",
+    "from": "Disabled"
+  },
+  "mqtt.cat.enabled": {
+    "text": "Đã bật",
+    "from": "Enabled"
+  },
+  "mqtt.state.connected": {
+    "text": "Đã kết nối",
+    "from": "Connected"
+  },
+  "nav.close": {
+    "text": "Đóng menu",
+    "from": "Close menu"
+  },
+  "nav.help": {
+    "text": "Trợ giúp",
+    "from": "Help"
+  },
+  "nav.open": {
+    "text": "Mở menu",
+    "from": "Open menu"
+  },
+  "nav.pref": {
+    "text": "Tùy chọn",
+    "from": "Preferences"
+  },
+  "nav.sections": {
+    "text": "Các mục",
+    "from": "Sections"
+  },
+  "offline.body": {
+    "text": "TV có thể đang tắt hoặc ở chế độ chờ. Trang này sẽ tự kết nối lại khi TV hoạt động.",
+    "from": "It may be switched off or in standby. This page reconnects by itself when the TV is back."
+  },
+  "offline.title": {
+    "text": "Không kết nối được với TV.",
+    "from": "Can’t reach the TV."
+  },
+  "oled.logo.high": {
+    "text": "Cao",
+    "from": "High"
+  },
+  "oled.logo.light": {
+    "text": "Sáng",
+    "from": "Light"
+  },
+  "pv.adblock.custom.delete": {
+    "text": "Xóa",
+    "from": "Delete"
+  },
+  "pv.adblock.custom.notUsed": {
+    "text": "Không có",
+    "from": "None"
+  },
+  "pv.adid.noneShort": {
+    "text": "Không có",
+    "from": "None"
+  },
+  "pv.notRunning": {
+    "text": "Chưa chạy",
+    "from": "Not running"
+  },
+  "pv.unknown": {
+    "text": "Không xác định",
+    "from": "Unknown"
+  },
+  "server.advanced": {
+    "text": "Nâng cao",
+    "from": "Advanced"
+  },
+  "server.backup.daily": {
+    "text": "Sao lưu hằng ngày",
+    "from": "Daily backup"
+  },
+  "server.backup.download": {
+    "text": "Tải xuống",
+    "from": "Download"
+  },
+  "server.backup.restore": {
+    "text": "Khôi phục từ tệp",
+    "from": "Restore from file"
+  },
+  "server.backup.restoreSaved": {
+    "text": "Khôi phục",
+    "from": "Restore"
+  },
+  "server.backup.save": {
+    "text": "Tải bản sao lưu",
+    "from": "Download backup"
+  },
+  "server.backup.title": {
+    "text": "Sao lưu cài đặt",
+    "from": "Settings backup"
+  },
+  "server.checkDaily": {
+    "text": "Kiểm tra cập nhật hằng ngày",
+    "from": "Check for updates daily"
+  },
+  "server.checkNow": {
+    "text": "Kiểm tra ngay",
+    "from": "Check now"
+  },
+  "server.devtools.off": {
+    "text": "Chưa chạy",
+    "from": "Not running"
+  },
+  "server.health.title": {
+    "text": "Tình trạng máy chủ",
+    "from": "Server health"
+  },
+  "server.language.group": {
+    "text": "Ngôn ngữ",
+    "from": "Language"
+  },
+  "server.language.title": {
+    "text": "Ngôn ngữ",
+    "from": "Language"
+  },
+  "server.ntp.save": {
+    "text": "Lưu",
+    "from": "Save"
+  },
+  "server.popup.installed": {
+    "text": "Đã cài đặt",
+    "from": "Installed"
+  },
+  "server.popup.update": {
+    "text": "Cập nhật",
+    "from": "Update"
+  },
+  "server.sidebar.group": {
+    "text": "Thanh bên",
+    "from": "Sidebar"
+  },
+  "server.sidebar.hide": {
+    "text": "Ẩn",
+    "from": "Hide"
+  },
+  "server.sidebar.show": {
+    "text": "Hiển thị",
+    "from": "Show"
+  },
+  "server.sidebar.title": {
+    "text": "Thanh bên",
+    "from": "Sidebar"
+  },
+  "server.theme.title": {
+    "text": "Giao diện",
+    "from": "Theme"
+  },
+  "setup.pressToChoose": {
+    "text": "Nhấn OK để chọn",
+    "from": "Press OK to choose"
+  },
+  "sound.headphone": {
+    "text": "Tai nghe / AUX",
+    "from": "Headphone / AUX"
+  },
+  "sound.optical": {
+    "text": "Cáp quang",
+    "from": "Optical"
+  },
+  "sound.tvSpeaker": {
+    "text": "Loa TV",
+    "from": "TV Speaker"
+  },
+  "srv.install.unknownError": {
+    "text": "Lỗi không xác định",
+    "from": "unknown error"
+  },
+  "srv.lgs.darkMode.off": {
+    "text": "Tắt",
+    "from": "Off"
+  },
+  "srv.lgs.deepColor.auto": {
+    "text": "Tự động",
+    "from": "Auto"
+  },
+  "srv.lgs.deepColor.off": {
+    "text": "Tắt",
+    "from": "Off"
+  },
+  "srv.lgs.deepColor.on": {
+    "text": "Bật",
+    "from": "On"
+  },
+  "srv.lgs.gameGenre.standard": {
+    "text": "Tiêu chuẩn",
+    "from": "Standard"
+  },
+  "srv.lgs.inputOptimization.auto": {
+    "text": "Tiêu chuẩn",
+    "from": "Standard"
+  },
+  "srv.lgs.soundMode.standard": {
+    "text": "Tiêu chuẩn",
+    "from": "Standard"
+  },
+  "srv.lgs.soundOutput": {
+    "text": "Đầu ra âm thanh",
+    "from": "Sound output"
+  },
+  "srv.lgs.soundOutput.externalOptical": {
+    "text": "Cáp quang",
+    "from": "Optical"
+  },
+  "srv.lgs.soundOutput.headphone": {
+    "text": "Tai nghe / AUX",
+    "from": "Headphone / AUX"
+  },
+  "srv.lgs.soundOutput.tvSpeaker": {
+    "text": "Loa TV",
+    "from": "TV Speaker"
+  },
+  "srv.lgs.soundOutputDigital.auto": {
+    "text": "Tự động",
+    "from": "Auto"
+  },
+  "srv.power.off": {
+    "text": "Tắt",
+    "from": "Off"
+  },
+  "srv.power.on": {
+    "text": "Bật",
+    "from": "On"
+  },
+  "srv.power.screenOff": {
+    "text": "Tắt màn hình",
+    "from": "Screen off"
+  },
+  "srv.power.standby": {
+    "text": "Chế độ chờ",
+    "from": "Standby"
+  },
+  "srv.power.starting": {
+    "text": "Đang khởi động",
+    "from": "Starting up"
+  },
+  "srv.preload.saveFailed": {
+    "text": "TV không lưu được thay đổi",
+    "from": "The TV did not save the change"
+  },
+  "srv.home.apps": {
+    "text": "Ô ứng dụng",
+    "from": "App tiles"
+  },
+  "srv.home.apps.desc": {
+    "text": "Hàng ứng dụng và các nguồn vào.",
+    "from": "The row of apps and inputs."
+  },
+  "srv.quickAccess.liveTv": {
+    "text": "Truyền hình trực tiếp",
+    "from": "Live TV"
+  },
+  "srv.quickAccess.saveFailed": {
+    "text": "TV không lưu được thay đổi",
+    "from": "The TV did not save the change"
+  },
+  "srv.remoteKeys.inputSwitcher": {
+    "text": "Bộ chuyển nguồn vào",
+    "from": "Input switcher"
+  },
+  "srv.remoteKeys.liveTv": {
+    "text": "Truyền hình trực tiếp",
+    "from": "Live TV"
+  },
+  "srv.remoteKeys.mute": {
+    "text": "Tắt tiếng",
+    "from": "Mute"
+  },
+  "srv.remoteKeys.stop": {
+    "text": "Dừng",
+    "from": "Stop"
+  },
+  "srv.remoteKeys.volumeDown": {
+    "text": "Giảm âm lượng",
+    "from": "Volume down"
+  },
+  "srv.remoteKeys.volumeUp": {
+    "text": "Tăng âm lượng",
+    "from": "Volume up"
+  },
+  "ss.brightness": {
+    "text": "Độ sáng",
+    "from": "Brightness"
+  },
+  "state.activeStandby": {
+    "text": "Chờ hoạt động",
+    "from": "Active Standby"
+  },
+  "svc.open": {
+    "text": "Mở",
+    "from": "Open"
+  },
+  "tab.advanced": {
+    "text": "Nâng cao",
+    "from": "Advanced"
+  },
+  "tab.apps": {
+    "text": "Ứng dụng",
+    "from": "Apps"
+  },
+  "tab.control": {
+    "text": "Điều khiển",
+    "from": "Control"
+  },
+  "tab.metrics": {
+    "text": "Thống kê",
+    "from": "Metrics"
+  },
+  "tab.privacy": {
+    "text": "Quyền riêng tư",
+    "from": "Privacy"
+  },
+  "tab.screensaver": {
+    "text": "Bảo vệ màn hình",
+    "from": "Screensaver"
+  },
+  "tab.server": {
+    "text": "Máy chủ",
+    "from": "Server"
+  },
+  "tab.tools": {
+    "text": "Công cụ",
+    "from": "Tools"
+  },
+  "theme": {
+    "text": "Giao diện",
+    "from": "Theme"
+  },
+  "theme.auto": {
+    "text": "Tự động",
+    "from": "Auto"
+  },
+  "theme.dark": {
+    "text": "Tối",
+    "from": "Dark"
+  },
+  "theme.light": {
+    "text": "Sáng",
+    "from": "Light"
+  },
+  "tools.clearSearch": {
+    "text": "Xóa tìm kiếm",
+    "from": "Clear search"
+  },
+  "tools.col.source": {
+    "text": "Nguồn",
+    "from": "Source"
+  },
+  "tools.col.time": {
+    "text": "Thời gian",
+    "from": "Time"
+  },
+  "tools.lvl.all": {
+    "text": "Tất cả",
+    "from": "All"
+  },
+  "tools.refresh": {
+    "text": "Làm mới",
+    "from": "Refresh"
+  },
+  "tools.src.system": {
+    "text": "Hệ thống",
+    "from": "System"
+  },
+  "tv.apps.home.hide": {
+    "text": "Nhấn OK để ẩn",
+    "from": "Press OK to hide it"
+  },
+  "tv.apps.home.show": {
+    "text": "Nhấn OK để hiện",
+    "from": "Press OK to show it"
+  },
+  "tv.apps.install.dismiss.done": {
+    "text": "Xong",
+    "from": "Done"
+  },
+  "tv.apps.install.head.all": {
+    "text": "Tất cả ứng dụng",
+    "from": "All apps"
+  },
+  "tv.apps.install.press.go": {
+    "text": "Nhấn OK để cài đặt ngay",
+    "from": "Press OK to install now"
+  },
+  "tv.apps.install.press.install": {
+    "text": "Nhấn OK để xem lại và cài đặt",
+    "from": "Press OK to review and install"
+  },
+  "tv.apps.install.press.off": {
+    "text": "Nhấn OK để tắt",
+    "from": "Press OK to switch off"
+  },
+  "tv.apps.install.press.on": {
+    "text": "Nhấn OK để bật",
+    "from": "Press OK to switch on"
+  },
+  "tv.apps.install.press.open": {
+    "text": "Nhấn OK để mở danh mục",
+    "from": "Press OK to open the catalog"
+  },
+  "tv.apps.install.pv.apps": {
+    "text": "Ứng dụng",
+    "from": "Apps"
+  },
+  "tv.apps.install.pv.change": {
+    "text": "Thay đổi",
+    "from": "Change"
+  },
+  "tv.apps.install.pv.screensaver": {
+    "text": "Trình bảo vệ màn hình",
+    "from": "Screen saver"
+  },
+  "tv.apps.install.retry": {
+    "text": "Thử lại",
+    "from": "Retry"
+  },
+  "tv.loading": {
+    "text": "Đang tải…",
+    "from": "Loading…"
+  },
+  "tv.options.lgLogo.hide": {
+    "text": "Nhấn OK để ẩn",
+    "from": "Press OK to hide it"
+  },
+  "tv.options.lgLogo.show": {
+    "text": "Nhấn OK để hiện",
+    "from": "Press OK to show it"
+  },
+  "tv.options.lgLogo.shown": {
+    "text": "Đang hiển thị",
+    "from": "Shown"
+  },
+  "tv.press.switchOff": {
+    "text": "Nhấn OK để tắt",
+    "from": "Press OK to switch off"
+  },
+  "tv.press.switchOn": {
+    "text": "Nhấn OK để bật",
+    "from": "Press OK to switch on"
+  },
+  "tv.saver.allow.off": {
+    "text": "Nhấn OK để tắt",
+    "from": "Press OK to switch off"
+  },
+  "tv.saver.head.screenSaver": {
+    "text": "Trình bảo vệ màn hình",
+    "from": "Screen saver"
+  },
+  "tv.svc.notAvailableOnThis": {
+    "text": "Không khả dụng trên TV này",
+    "from": "Not available on this TV"
+  },
+  "tv.svc.openEzAdjust.press": {
+    "text": "Nhấn OK để mở",
+    "from": "Press OK to open"
+  },
+  "tv.svc.openInStart.press": {
+    "text": "Nhấn OK để mở",
+    "from": "Press OK to open"
+  },
+  "tv.tab.settings": {
+    "text": "Cài đặt",
+    "from": "Settings"
+  },
+  "tv.tab.system": {
+    "text": "Hệ thống",
+    "from": "System"
+  },
+  "tv.update.checking": {
+    "text": "Đang kiểm tra…",
+    "from": "Checking…"
+  },
+  "tv.update.installing": {
+    "text": "Đang cài đặt…",
+    "from": "Installing…"
+  },
+  "tv.update.serverHealth": {
+    "text": "Tình trạng máy chủ",
+    "from": "Server health"
+  },
+  "server.ssh.remove": {
+    "text": "Xóa",
+    "from": "Remove"
+  },
+  "apps.catalogs.none": {
+    "text": "Không có",
+    "from": "None"
+  },
+  "apps.catalogs.remove": {
+    "text": "Xóa",
+    "from": "Remove"
+  },
+  "apps.tile.shown": {
+    "text": "Đang hiển thị",
+    "from": "Shown"
+  },
+  "ctl.settings": {
+    "text": "Cài đặt",
+    "from": "Settings"
+  },
+  "home.arrange.done": {
+    "text": "Hoàn tất",
+    "from": "Done"
+  },
+  "home.arrange.hide": {
+    "text": "Ẩn hoặc hiện",
+    "from": "Hide or show"
+  },
+  "home.arrange.isHidden": {
+    "text": "(đã ẩn)",
+    "from": "(hidden)"
+  },
+  "home.arrange.keys": {
+    "text": "Nhấn OK để chọn hoặc đặt ô. Giữ phím mũi tên để di chuyển ô hoặc hàng; nhấn Quay lại để ẩn hoặc hiện. Nhấn OK ở đầu hàng để đổi thứ tự.",
+    "from": "OK picks a tile up or puts it down. Held, the arrows move it or its row, and Back hides or shows it, or removes a channel. Left of a row, OK sets its order."
+  },
+  "home.arrange.nowCustom": {
+    "text": "{row} đang dùng thứ tự bạn sắp xếp",
+    "from": "{row} are now in your order"
+  },
+  "home.arrange.orderCustom": {
+    "text": "Thứ tự: của bạn",
+    "from": "Order: yours"
+  },
+  "home.arrange.orderRecent": {
+    "text": "Thứ tự: mở gần nhất",
+    "from": "Order: last opened"
+  },
+  "home.arrange.reset": {
+    "text": "Đặt lại",
+    "from": "Reset"
+  },
+  "home.arrange.resetDone": {
+    "text": "Đã đặt lại bố cục",
+    "from": "Layout reset"
+  },
+  "home.arrange.saved": {
+    "text": "Đã lưu bố cục",
+    "from": "Layout saved"
+  },
+  "home.arrange.savedDesc": {
+    "text": "Bố cục cũng hiển thị trong mục Trang chủ của bảng điều khiển",
+    "from": "The dashboard's Home tab shows it too"
+  },
+  "home.arrange.title": {
+    "text": "Sắp xếp",
+    "from": "Arranging"
+  },
+  "home.ch.add": {
+    "text": "Thêm",
+    "from": "Add"
+  },
+  "home.ch.addTitle": {
+    "text": "Thêm kênh",
+    "from": "Add channels"
+  },
+  "home.ch.allAdded": {
+    "text": "Tất cả kênh đều đã có trên Trang chủ.",
+    "from": "Every channel is on Home."
+  },
+  "home.ch.empty": {
+    "text": "Chưa có kênh. Hãy thêm kênh ở dưới.",
+    "from": "No channels yet. Add them below."
+  },
+  "home.ch.find": {
+    "text": "Tìm kênh",
+    "from": "Find a channel"
+  },
+  "home.ch.none": {
+    "text": "TV chưa được dò kênh nên hàng Kênh vẫn trống.",
+    "from": "This TV has no channels tuned, so the Channels row stays empty."
+  },
+  "home.ch.remove": {
+    "text": "Xóa",
+    "from": "Remove"
+  },
+  "home.ch.show": {
+    "text": "Hiển thị kênh",
+    "from": "Show channels"
+  },
+  "home.colours.custom": {
+    "text": "Tùy chỉnh",
+    "from": "Custom"
+  },
+  "home.colours.title": {
+    "text": "Màu sắc",
+    "from": "Colours"
+  },
+  "home.confirmOff": {
+    "text": "Nhấn lần nữa để dùng Trang chủ LG",
+    "from": "Press again to use LG Home"
+  },
+  "home.confirmOn": {
+    "text": "Nhấn lần nữa để bật",
+    "from": "Press again to switch on"
+  },
+  "home.dev.connected": {
+    "text": "Đã kết nối",
+    "from": "Connected"
+  },
+  "home.dev.last": {
+    "text": "Xem gần nhất",
+    "from": "Last watched"
+  },
+  "home.earlier": {
+    "text": "Trước đó",
+    "from": "Earlier"
+  },
+  "home.fade": {
+    "text": "Hiệu ứng hiện/ẩn dần",
+    "from": "Fade in and out"
+  },
+  "home.fault.desc": {
+    "text": "Glasshouse Home sẽ quay lại khi kết nối được. Nếu tiếp tục không phản hồi, Trang chủ LG sẽ được khôi phục.",
+    "from": "Glasshouse Home comes back when it answers. Should it stay silent, LG's Home comes back in a few minutes."
+  },
+  "home.fault.title": {
+    "text": "Glasshouse không phản hồi",
+    "from": "Glasshouse is not answering"
+  },
+  "home.hidden": {
+    "text": "Đã ẩn",
+    "from": "Hidden"
+  },
+  "home.hideLg": {
+    "text": "Ẩn Trang chủ LG trong lúc TV khởi động",
+    "from": "Hide LG’s Home while the TV starts"
+  },
+  "home.hideLgDesc": {
+    "text": "Ở các TV hỗ trợ, Trang chủ LG tạm hiện màn hình đen khi khởi động nguội trước khi Glasshouse mở.",
+    "from": "For about 25 seconds after a cold start, until Glasshouse Home takes its place, LG’s Home opens as a black screen instead of its own."
+  },
+  "home.hideUnused": {
+    "text": "Ẩn nguồn chưa kết nối",
+    "from": "Hide inputs with nothing connected"
+  },
+  "home.hideUnusedDesc": {
+    "text": "Ẩn các nguồn vào không có thiết bị, thay vì hiển thị mờ. Chúng vẫn xuất hiện khi sắp xếp.",
+    "from": "Leaves inputs with nothing plugged in out of the Inputs row, instead of showing them greyed out. They still show while arranging."
+  },
+  "home.isOff": {
+    "text": "Trang chủ LG đang là Trang chủ của TV",
+    "from": "LG’s Home is the TV’s Home"
+  },
+  "home.isOffDesc": {
+    "text": "Không thay đổi tệp hệ thống LG. Khi bật, Glasshouse được hiển thị phía trên Trang chủ LG; khi tắt, Trang chủ LG trở lại.",
+    "from": "Nothing of LG’s is changed: Glasshouse Home is laid over LG’s Home while on, and switching off takes it away."
+  },
+  "home.isOn": {
+    "text": "Trang chủ Glasshouse đang là Trang chủ của TV",
+    "from": "Glasshouse Home is the TV’s Home"
+  },
+  "home.isOnDesc": {
+    "text": "Trang chủ này thay Trang chủ LG khi nhấn Home hoặc Quay lại và khi TV bật từ phím Home.",
+    "from": "It opens in LG’s Home’s place: with the Home and Back buttons, and when the TV wakes on Home."
+  },
+  "home.isOnLgOpen": {
+    "text": "Trang chủ LG đang tạm mở. Glasshouse trở lại khi mở ứng dụng khác hoặc nhấn Home.",
+    "from": "LG’s Home is open for now. Glasshouse Home comes back when something else is opened, or Home is pressed."
+  },
+  "home.isOnPending": {
+    "text": "Đã bật nhưng Trang chủ LG vẫn đang hiển thị. Hãy thử tắt và bật lại tính năng này.",
+    "from": "Switched on, but LG’s Home is still in its place. Switching off and on again tries once more."
+  },
+  "home.later": {
+    "text": "Để sau",
+    "from": "Later"
+  },
+  "home.lgHome": {
+    "text": "Trang chủ LG",
+    "from": "LG Home"
+  },
+  "home.now.app": {
+    "text": "Ứng dụng trên TV",
+    "from": "App on this TV"
+  },
+  "home.now.lastOpened": {
+    "text": "Mở gần nhất",
+    "from": "Last opened"
+  },
+  "home.now.lastWatched": {
+    "text": "Xem gần nhất",
+    "from": "Last watched"
+  },
+  "home.plate.backlight": {
+    "text": "Đèn nền",
+    "from": "Backlight"
+  },
+  "home.recents.close": {
+    "text": "Đóng",
+    "from": "Close"
+  },
+  "home.reset": {
+    "text": "Đặt lại bố cục",
+    "from": "Reset the layout"
+  },
+  "home.restorePending": {
+    "text": "Chưa khôi phục xong Trang chủ LG",
+    "from": "LG Home restoration is incomplete"
+  },
+  "home.restoreRetry": {
+    "text": "Hãy khôi phục Trang chủ LG hoàn tất trước khi bật Glasshouse Home.",
+    "from": "Retry restoring LG Home before switching Glasshouse Home on again."
+  },
+  "home.retryRestore": {
+    "text": "Thử khôi phục Trang chủ LG",
+    "from": "Retry restoring LG Home"
+  },
+  "home.row.apps": {
+    "text": "Ứng dụng",
+    "from": "Apps"
+  },
+  "home.row.channels": {
+    "text": "Kênh truyền hình",
+    "from": "Channels"
+  },
+  "home.row.inputs": {
+    "text": "Nguồn vào",
+    "from": "Inputs"
+  },
+  "home.rowEmpty": {
+    "text": "Chưa có nội dung để hiển thị trong hàng này.",
+    "from": "Nothing to show in this row yet."
+  },
+  "home.shown": {
+    "text": "Đang hiển thị",
+    "from": "Shown"
+  },
+  "home.sort": {
+    "text": "Thứ tự",
+    "from": "Order"
+  },
+  "home.sortCustom": {
+    "text": "Thứ tự của bạn",
+    "from": "Your order"
+  },
+  "home.sortRecent": {
+    "text": "Mở gần nhất",
+    "from": "Last opened"
+  },
+  "home.title": {
+    "text": "Trang chủ Glasshouse",
+    "from": "Glasshouse Home"
+  },
+  "home.unavailable": {
+    "text": "Không khả dụng trên TV này",
+    "from": "Not available on this TV"
+  },
+  "home.wall.chooseImage": {
+    "text": "Chọn ảnh JPEG, PNG hoặc WebP tối đa 25 MB.",
+    "from": "Choose a JPEG, PNG or WebP image up to 25 MB."
+  },
+  "home.wall.slotAfternoon": {
+    "text": "Buổi chiều",
+    "from": "Afternoon"
+  },
+  "home.wall.slotEvening": {
+    "text": "Buổi tối",
+    "from": "Evening"
+  },
+  "home.wall.slotMorning": {
+    "text": "Buổi sáng",
+    "from": "Morning"
+  },
+  "home.wall.slotNight": {
+    "text": "Ban đêm",
+    "from": "Night"
+  },
+  "home.wall.tooLarge": {
+    "text": "Ảnh đã xử lý quá lớn. Hãy chọn ảnh nhỏ hơn.",
+    "from": "The prepared image is too large. Choose a smaller image."
+  },
+  "home.wall.unreadable": {
+    "text": "Không thể mở ảnh này.",
+    "from": "The image could not be opened."
+  },
+  "home.wall.uploadDone": {
+    "text": "Đã tải ảnh lên. Trang chủ sẽ cập nhật sau vài giây.",
+    "from": "Image uploaded. Home updates within a few seconds."
+  },
+  "home.wall.uploadFailed": {
+    "text": "Không thể tải ảnh lên.",
+    "from": "The image could not be uploaded."
+  },
+  "home.wall.uploadHelp": {
+    "text": "Ảnh JPEG, PNG hoặc WebP tối đa 25 MB, tự điều chỉnh vừa màn hình 1920 × 1080 trước khi tải lên.",
+    "from": "JPEG, PNG or WebP, up to 25 MB. Images are resized to fit 1920 × 1080, the size Glasshouse Home is drawn at, before upload, and fill the screen."
+  },
+  "home.wall.uploading": {
+    "text": "Đang tải lên…",
+    "from": "Uploading…"
+  },
+  "server.port.save": {
+    "text": "Lưu",
+    "from": "Save"
+  },
+  "tab.home": {
+    "text": "Trang chủ",
+    "from": "Home"
+  },
+  "tv.home.ch.press": {
+    "text": "Nhấn OK để chọn",
+    "from": "Press OK to choose"
+  },
+  "tv.home.tile.hide": {
+    "text": "Nhấn OK để ẩn",
+    "from": "Press OK to hide it"
+  },
+  "tv.home.tile.show": {
+    "text": "Nhấn OK để hiện",
+    "from": "Press OK to show it"
+  },
+  "tv.saver.powerOff.minutes": {
+    "text": "{n} phút",
+    "from": "{n} min"
+  },
+  "srv.remoteKeys.home": {
+    "text": "Trang chủ",
+    "from": "Home"
+  },
+  "home.folder.title": {
+    "text": "Ứng dụng khác",
+    "from": "More apps"
+  },
+  "home.arrange.isInFolder": {
+    "text": "{name} (trong Ứng dụng khác)",
+    "from": "{name} (in More apps)"
+  },
+  "audio.outputNow": {
+    "text": "Đầu ra âm thanh",
+    "from": "Sound output"
+  },
+  "audio.refresh": {
+    "text": "Làm mới",
+    "from": "Refresh"
+  },
+  "audio.unknown": {
+    "text": "Không xác định",
+    "from": "Unknown"
+  },
+  "home.customisation": {
+    "text": "Tùy chỉnh Trang chủ",
+    "from": "Home customisation"
+  },
+  "tab.audio": {
+    "text": "Âm thanh",
+    "from": "Audio"
+  },
+  "home.hideLgWarn": {
+    "text": "Cảnh báo: Nếu Glasshouse ngừng chạy, Trang chủ LG có thể tiếp tục là màn hình đen cho đến khi khôi phục bằng SSH.",
+    "from": "Warning: If Glasshouse stops running (for example after a firmware update removes root), LG’s Home will stay black until it is put back over SSH."
+  },
+  "home.wall.add": {
+    "text": "Thêm ảnh",
+    "from": "Add a picture"
+  },
+  "home.wall.choose": {
+    "text": "Chọn ảnh cho {name}",
+    "from": "Choose a picture for {name}"
+  },
+  "home.wall.clearAll": {
+    "text": "Xóa tất cả",
+    "from": "Remove all"
+  },
+  "home.wall.now": {
+    "text": "Đang dùng",
+    "from": "Now"
+  },
+  "home.wall.remove": {
+    "text": "Xóa",
+    "from": "Remove"
+  },
+  "home.wall.replace": {
+    "text": "Thay thế",
+    "from": "Replace"
+  },
+  "home.wall.examplesBusy": {
+    "text": "Đang tải xuống…",
+    "from": "Downloading…"
+  },
+  "pic.brightness": {
+    "text": "Độ sáng",
+    "from": "Brightness"
+  },
+  "srv.lgs.blackLevel.auto": {
+    "text": "Tự động",
+    "from": "Auto"
+  },
+  "srv.lgs.colorGamut.normal": {
+    "text": "Bình thường",
+    "from": "Normal"
+  },
+  "srv.lgs.dtm.off": {
+    "text": "Tắt",
+    "from": "Off"
+  },
+  "srv.lgs.dtm.on": {
+    "text": "Bật",
+    "from": "On"
+  },
+  "srv.lgs.energySaving.auto": {
+    "text": "Tự động",
+    "from": "Auto"
+  },
+  "srv.lgs.energySaving.max": {
+    "text": "Tối đa",
+    "from": "Maximum"
+  },
+  "srv.lgs.energySaving.med": {
+    "text": "Trung bình",
+    "from": "Medium"
+  },
+  "srv.lgs.energySaving.min": {
+    "text": "Tối thiểu",
+    "from": "Minimum"
+  },
+  "srv.lgs.energySaving.off": {
+    "text": "Tắt",
+    "from": "Off"
+  },
+  "srv.lgs.expressionEnhancer.highlight": {
+    "text": "Độ sáng",
+    "from": "Brightness"
+  },
+  "srv.lgs.justScan.on": {
+    "text": "Bật",
+    "from": "On"
+  },
+  "srv.lgs.level.auto": {
+    "text": "Tự động",
+    "from": "Auto"
+  },
+  "srv.lgs.level.high": {
+    "text": "Cao",
+    "from": "High"
+  },
+  "srv.lgs.level.low": {
+    "text": "Thấp",
+    "from": "Low"
+  },
+  "srv.lgs.level.medium": {
+    "text": "Trung bình",
+    "from": "Medium"
+  },
+  "srv.lgs.level.off": {
+    "text": "Tắt",
+    "from": "Off"
+  },
+  "srv.lgs.truMotion.off": {
+    "text": "Tắt",
+    "from": "Off"
+  },
+  "srv.lgs.wbTemperature.medium": {
+    "text": "Trung bình",
+    "from": "Medium"
+  },
+  "tab.picture": {
+    "text": "Hình ảnh",
+    "from": "Picture"
+  },
+  "home.showClock": {
+    "text": "Đồng hồ và ngày",
+    "from": "Clock and date"
+  },
+  "home.wall.setAbstract": {
+    "text": "Trừu tượng",
+    "from": "Abstract"
+  },
+  "home.wall.setBlack": {
+    "text": "Nền đen",
+    "from": "Black"
+  },
+  "home.wall.setLandscape": {
+    "text": "Phong cảnh",
+    "from": "Landscape"
+  },
+  "home.wall.setOwn": {
+    "text": "Ảnh của bạn",
+    "from": "Your own"
+  },
+  "home.wall.tvHintSets": {
+    "text": "Các bộ ảnh sẽ được tải về TV khi chọn. Ảnh của bạn được tải lên trong mục Trang chủ của bảng điều khiển trên trình duyệt.",
+    "from": "Landscape and Abstract are downloaded to the TV when chosen. Your own pictures are uploaded on the browser dashboard’s Home tab."
+  },
+  "ss.installedApp": {
+    "text": "Ứng dụng đã cài",
+    "from": "Installed app"
+  },
+  "srv.remoteKeys.screenOff": {
+    "text": "Tắt màn hình",
+    "from": "Screen off"
+  },
+  "ctl.keyboard.sub": {
+    "text": "Nhập vào ô đang được chọn",
+    "from": "Type into a focused field"
+  },
+  "ctl.keyboard.placeholder": {
+    "text": "Chọn một ô trên TV rồi nhập nội dung",
+    "from": "Focus a field on the TV, then type"
+  },
+  "tab.system": {
+    "text": "Hệ thống",
+    "from": "System"
+  },
+  "audio.bt.connected": {
+    "text": "Đã kết nối",
+    "from": "Connected"
+  },
+  "audio.bt.connecting": {
+    "text": "Đang kết nối…",
+    "from": "Connecting…"
+  },
+  "audio.bt.remove": {
+    "text": "Xóa",
+    "from": "Remove"
+  },
+  "apps.home.banner.own": {
+    "text": "Ảnh của bạn",
+    "from": "Your own"
+  },
+  "audio.unavailable": {
+    "text": "Không khả dụng",
+    "from": "Unavailable"
+  },
+  "home.darkening": {
+    "text": "Làm tối ảnh nền",
+    "from": "Darkening"
+  },
+  "home.livePreview": {
+    "text": "Xem trước trực tiếp",
+    "from": "Live preview"
+  },
+  "home.preview.live": {
+    "text": "Xem trước trực tiếp",
+    "from": "Live preview"
+  },
+  "home.search": {
+    "text": "Tìm kiếm",
+    "from": "Search"
+  },
+  "home.search.rail": {
+    "text": "Tìm kiếm",
+    "from": "Search"
+  },
+  "home.searchUnavailable": {
+    "text": "Không khả dụng",
+    "from": "Unavailable"
+  },
+  "home.showAppCount": {
+    "text": "Số ứng dụng",
+    "from": "App count"
+  },
+  "home.showLast": {
+    "text": "Xem gần nhất",
+    "from": "Last watched"
+  },
+  "server.tvName.save": {
+    "text": "Lưu",
+    "from": "Save"
+  },
+  "srv.remoteKeys.powerOff": {
+    "text": "Tắt TV",
+    "from": "Power off"
+  },
+  "home.group.start": {
+    "text": "Đang khởi động",
+    "from": "Starting up"
+  },
+  "home.group.preview": {
+    "text": "Xem trước trực tiếp",
+    "from": "Live preview"
+  },
+  "home.group.search": {
+    "text": "Tìm kiếm",
+    "from": "Search"
+  },
+  "srv.service.badge.network": {
+    "text": "Mạng",
+    "from": "Network"
+  },
+  "home.tv.addTitle": {
+    "text": "Thêm kênh",
+    "from": "Add channels"
+  },
+  "home.tv.channels": {
+    "text": "{n} kênh",
+    "from": "{n} channels"
+  },
+  "home.tv.edit": {
+    "text": "Chỉnh sửa",
+    "from": "Edit"
+  },
+  "home.tv.find": {
+    "text": "Tìm kênh",
+    "from": "Find a channel"
+  },
+  "home.tv.groupCount": {
+    "text": "{n} kênh",
+    "from": "{n} channels"
+  },
+  "home.tv.guideAll": {
+    "text": "Tất cả",
+    "from": "All"
+  },
+  "home.tv.matchOne": {
+    "text": "1 kênh",
+    "from": "1 channel"
+  },
+  "home.tv.next": {
+    "text": "Tiếp theo",
+    "from": "Next"
+  },
+  "home.tv.now": {
+    "text": "Hiện tại",
+    "from": "Now"
+  },
+  "home.tv.oneChannel": {
+    "text": "1 kênh",
+    "from": "1 channel"
+  },
+  "home.tv.refresh": {
+    "text": "Làm mới",
+    "from": "Refresh"
+  },
+  "home.tv.remove": {
+    "text": "Xóa",
+    "from": "Remove"
+  },
+  "home.tv.server": {
+    "text": "Máy chủ",
+    "from": "Server"
+  },
+  "home.tv.ungrouped": {
+    "text": "Kênh truyền hình",
+    "from": "Channels"
+  },
+  "home.tvm.back": {
+    "text": "Trang chủ",
+    "from": "Home"
+  },
+  "home.tvm.bar.hide": {
+    "text": "Ẩn",
+    "from": "Hide"
+  },
+  "home.tvm.channels": {
+    "text": "Kênh truyền hình",
+    "from": "Channels"
+  },
+  "home.tvm.entryTitle": {
+    "text": "Kênh truyền hình",
+    "from": "Channels"
+  },
+  "home.tvm.keyDelete": {
+    "text": "Xóa",
+    "from": "Delete"
+  },
+  "home.tvm.quickAdd": {
+    "text": "Thêm",
+    "from": "Add"
+  },
+  "home.anim.off": {
+    "text": "Tắt",
+    "from": "Off"
+  },
+  "home.animLight": {
+    "text": "Sáng",
+    "from": "Light"
+  },
+  "home.animSky": {
+    "text": "Nền",
+    "from": "Background"
+  },
+  "home.animTheme.custom": {
+    "text": "Ảnh của bạn",
+    "from": "Your own"
+  },
+  "home.bg.title": {
+    "text": "Nền",
+    "from": "Background"
+  },
+  "home.bg.none": {
+    "text": "Không có",
+    "from": "None"
+  },
+  "home.bg.animation": {
+    "text": "Hiệu ứng",
+    "from": "Animation"
+  },
+  "home.wall.introPictures": {
+    "text": "Chọn một ảnh cho từng thời điểm trong ngày hoặc dùng ảnh của bạn.",
+    "from": "A picture for each part of the day: one of the picture sets, or your own."
+  },
+  "home.launcher.title": {
+    "text": "Trình khởi chạy tùy chỉnh",
+    "from": "Custom launcher"
+  },
+  "home.launcher.trust": {
+    "text": "Trình khởi chạy có thể dùng các quyền mà Glasshouse có trên TV. Chỉ sử dụng trình khởi chạy đáng tin cậy.",
+    "from": "A launcher can do anything on the TV that Glasshouse can. Only use one you trust."
+  },
+  "home.launcher.upload": {
+    "text": "Tải lên trình khởi chạy",
+    "from": "Upload a launcher"
+  },
+  "home.launcher.choose": {
+    "text": "Chọn tệp",
+    "from": "Choose a file"
+  },
+  "home.launcher.address": {
+    "text": "Hoặc mở một trang web",
+    "from": "Or open a web page"
+  },
+  "home.launcher.addressDesc": {
+    "text": "Hiển thị toàn màn hình một trang web, chẳng hạn bảng điều khiển Home Assistant, thay cho Trang chủ TV. Một số trang có thể không cho nhúng.",
+    "from": "A page such as a Home Assistant dashboard, shown full screen as the TV’s Home. Some sites do not allow this; Writing a launcher in the docs has the setting Home Assistant needs."
+  },
+  "home.launcher.save": {
+    "text": "Sử dụng trang này",
+    "from": "Use this page"
+  },
+  "home.launcher.remove": {
+    "text": "Xóa",
+    "from": "Remove"
+  },
+  "home.launcher.isOn": {
+    "text": "{title} đang là Trang chủ của TV",
+    "from": "{title} is the TV’s Home"
+  },
+  "home.launcher.nowApp": {
+    "text": "Đã tải lên: {files} tệp, {size}",
+    "from": "Uploaded: {files} files, {size}"
+  },
+  "home.launcher.nowAppOne": {
+    "text": "Đã tải lên: một tệp, {size}",
+    "from": "Uploaded: one file, {size}"
+  },
+  "home.launcher.nowWeb": {
+    "text": "Trang web: {address}",
+    "from": "Web page: {address}"
+  },
+  "home.launcher.doneOn": {
+    "text": "Hoàn tất. Trang chủ TV sẽ hiển thị sau vài giây.",
+    "from": "Done. The TV’s Home shows it within a few seconds."
+  },
+  "home.launcher.tooLarge": {
+    "text": "Trình khởi chạy có dung lượng tối đa 50 MB.",
+    "from": "A launcher can be at most 50 MB."
+  },
+  "home.launcher.uploadFailed": {
+    "text": "Không thể tải trình khởi chạy lên.",
+    "from": "The launcher could not be uploaded."
+  },
+  "home.launcher.uploading": {
+    "text": "Đang tải lên {name}…",
+    "from": "Uploading {name}…"
+  },
+  "srv.home.launcher.uploadSize": {
+    "text": "Trình khởi chạy có dung lượng tối đa 50 MB.",
+    "from": "A launcher can be at most 50 MB."
+  },
+  "home.launcher.uploadOff": {
+    "text": "Muốn tải trình khởi chạy, hãy bật Cài ứng dụng từ URL hoặc tệp trong mục Ứng dụng, hoặc dùng mã truy cập hợp lệ.",
+    "from": "Uploading a launcher needs Install app from a URL or file switched on, on the Apps tab, or a token, as installing an app does."
+  },
+  "home.launcher.intro": {
+    "text": "Đặt Trang chủ riêng thay cho Glasshouse Home: tải ứng dụng web lên hoặc nhập địa chỉ trang web. Phím Home và Quay lại sẽ mở nó; giữ Home để trở về Trang chủ LG. Nếu trình khởi chạy ngừng phản hồi, Trang chủ LG được khôi phục.",
+    "from": "A home screen of your own in Glasshouse Home’s place: a web app uploaded here, or a web page. The Home and Back buttons open it, as they do Glasshouse Home, and holding Home still opens LG’s Home. If it stops working, LG’s Home comes back by itself."
+  },
+  "home.launcher.uploadDesc": {
+    "text": "Tải ứng dụng web .ipk, thư mục .zip hoặc tệp .html tối đa 50 MB. Trình khởi chạy mới thay thế bản đã tải trước.",
+    "from": "A web app as an .ipk, a .zip of its folder, or a single .html file, up to 50 MB. It replaces the launcher here before it."
+  },
+  "home.launcher.docs": {
+    "text": "Hướng dẫn viết trình khởi chạy",
+    "from": "Writing a launcher"
+  },
+  "home.minimalDesc": {
+    "text": "Giao diện Trang chủ tối giản nhất của Glasshouse: ứng dụng, nguồn vào, đồng hồ và tên trên nền đen.",
+    "from": "Glasshouse’s plainest home screen: the TV’s apps and inputs as two lists of names on black, and the time."
+  },
+  "home.launcher.isOnLgOpenTitle": {
+    "text": "Trang chủ LG đang tạm mở. {title} sẽ trở lại khi mở nội dung khác hoặc nhấn Home.",
+    "from": "LG’s Home is open for now. {title} comes back when something else is opened, or Home is pressed."
+  },
+  "home.launcher.isOnDescTitle": {
+    "text": "{title} mở thay Trang chủ LG khi nhấn Home hoặc Quay lại và khi TV thức dậy bằng phím Home.",
+    "from": "{title} opens in LG’s Home’s place: with the Home and Back buttons, and when the TV wakes on Home."
+  },
+  "home.layoutDescLaunchers": {
+    "text": "Các ứng dụng và nguồn vào mà Minimal hiển thị cùng thứ tự. Trình khởi chạy riêng cũng có thể dùng cấu hình này.",
+    "from": "Which of the TV’s apps and inputs Minimal shows, and in what order. A launcher of your own follows this where it was written to."
+  },
+  "home.choose": {
+    "text": "Chọn trình khởi chạy",
+    "from": "Choose your launcher"
+  },
+  "home.custom": {
+    "text": "Tùy chỉnh",
+    "from": "Custom"
+  },
+  "home.minimalName": {
+    "text": "Glasshouse tối giản",
+    "from": "Glasshouse Minimal"
+  },
+  "home.pressAgain": {
+    "text": "Nhấn lần nữa để xác nhận",
+    "from": "Press again to confirm"
+  },
+  "home.experimentalAny": {
+    "text": "Thử nghiệm: chức năng có thể chưa ổn định. Glasshouse Home, Glasshouse tối giản và trình khởi chạy tùy chỉnh đều thay thế Trang chủ LG. Nếu có lỗi, giữ Home khoảng một giây để mở Trang chủ LG hoặc chọn Trang chủ LG tại đây.",
+    "from": "Experimental: it may not always work as expected. Glasshouse Home, Glasshouse Minimal and custom launchers each replace LG’s Home screen. If one misbehaves, hold Home on the remote for a second to open LG’s Home, or choose LG Home here to switch back. For the first half minute after the TV starts from cold, Home shows a message that it is starting."
+  },
+  "home.restartsAppsAny": {
+    "text": "Trên TV này, đổi giữa Trang chủ LG và Glasshouse hoặc giữ Home có thể khởi động lại trình quản lý ứng dụng, khiến ứng dụng đang mở bị đóng.",
+    "from": "On this TV, switching away from LG Home or back to it, or holding Home for LG’s Home, restarts the TV’s app manager, which closes the apps that are open."
+  },
+  "home.launcher.doneOffCustom": {
+    "text": "Hoàn tất. Chọn Tùy chỉnh phía trên rồi xác nhận lần nữa để đặt làm Trang chủ.",
+    "from": "Done. Press Custom above, then again, to make it the TV’s Home."
+  },
+  "home.weather": {
+    "text": "Thời tiết",
+    "from": "Weather"
+  },
+  "home.weather.search": {
+    "text": "Tìm kiếm",
+    "from": "Search"
+  },
+  "home.weatherDesc": {
+    "text": "Bên cạnh đồng hồ: thời tiết do Home Assistant gửi hoặc thời tiết từ Open-Meteo cho vị trí bạn chọn.",
+    "from": "Next to the clock: the weather Home Assistant sends, or the weather for a place you choose, from Open-Meteo."
+  },
+  "tv.home.head.reset": {
+    "text": "Đặt lại",
+    "from": "Reset"
+  },
+  "tv.home.noneYet": {
+    "text": "Chưa có",
+    "from": "None yet"
+  },
+  "tv.home.openList": {
+    "text": "Nhấn OK để mở",
+    "from": "Press OK to open"
+  },
+  "apps.group.net": {
+    "text": "Mạng",
+    "from": "Network"
+  },
+  "apps.dns.change": {
+    "text": "Thay đổi",
+    "from": "Change"
+  },
+  "ss.choice": {
+    "text": "Hiệu ứng",
+    "from": "Animation"
+  },
+  "apps.inputBar.hideUnused": {
+    "text": "Ẩn nguồn chưa kết nối",
+    "from": "Hide inputs with nothing connected"
+  }
+}
